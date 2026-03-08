@@ -1,5 +1,4 @@
 #include "../include/storage.h"
-
 #include <stdlib.h>
 
 struct storage_data

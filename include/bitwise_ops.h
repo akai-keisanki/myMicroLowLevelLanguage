@@ -1,0 +1,4 @@
+#ifndef MICRO_LANG_BITWISE_OPS_H
+#define MICRO_LANG_BITWISE_OPS_H
+
+#endif

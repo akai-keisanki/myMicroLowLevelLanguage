@@ -3,6 +3,6 @@
 
 #include "storage.h"
 
-signed int interpret(struct storage_data *data, const unsigned char op[4]);
+signed int interpret_op(struct storage_data *data, const unsigned char op[4]);
 
 #endif

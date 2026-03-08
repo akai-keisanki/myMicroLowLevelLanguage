@@ -26,7 +26,7 @@ signed int main(const unsigned int argc, const signed char **argv)
     FILE *input_file = fopen(input_files[i], "rb");
     unsigned char op[4];
     while (fread(op, sizeof(unsigned char), 4, input_file))
-      if (interpret(data, op))
+      if (interpret_op(data, op))
         return -1;
     fclose(input_file);
   }
