@@ -7,8 +7,8 @@ micro_lang: $(OBJECT_FILES)
 	$(CC) -o $@ $^
 
 obj/%.o: src/%.c
-	mkdir obj
-	$(CC) -c -o $@ @^
+	mkdir -p obj
+	$(CC) -c -o $@ $^
 
 clean:
 	rm micro_lang $(OBJECT_FILES)
