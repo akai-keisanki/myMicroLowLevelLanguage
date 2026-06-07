@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-#include "../include/storage.h"
-#include "../include/interpreter.h"
+#include "storage.h"
+#include "interpreter.h"
 
 const unsigned long int MAX_INPUT_FILE_COUNT = 0x10;
 

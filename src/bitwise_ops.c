@@ -1,1 +1,1 @@
-#include "../include/bitwise_ops.h"
+#include "bitwise_ops.h"
